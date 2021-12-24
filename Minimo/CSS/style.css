@@ -1,0 +1,239 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+*{
+      margin: 0%;
+      padding: 0%;
+ }
+ header{
+      overflow: hidden;
+      width: 90%;
+      margin: auto;
+      padding-top: 30px;
+ }
+   
+ .logo{
+      width: 20%;
+      float: left;
+      cursor: pointer;
+ }
+ 
+ .menu{
+       width: 65%;
+       float: right;
+       overflow: hidden;
+ }
+  
+ .menu ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+     float: right;
+ }
+  
+ .menu ul li{
+      float: left;
+      margin-left: 105px;
+      text-transform: uppercase;
+      position: relative;
+ }
+ .menu ul li::after{
+       content: '';
+       height: 3px;
+       width: 0;
+       left: 0;
+       bottom: -1px;
+       background: #626262;
+       position: absolute;
+       transition: 0.5s;
+
+ }
+ .menu ul li:hover:after{
+       width: 100%;
+ }
+ .menu ul li a{
+      text-decoration: none;
+      color: re;
+      color: #626262;
+      font-family: 'Ubuntu', sans-serif;
+ }
+ .banner{
+       width: 90%;
+      margin: auto;
+       padding: 50px 0;
+ }
+ .banner img{
+       width: 100%;
+ }
+ .photodiary{
+       width: 80%;
+       margin: auto;
+       overflow: hidden;
+ }
+ .photodiary h5{
+       margin: 0;
+       color: #b4ad9e;
+       text-transform: uppercase;
+       font-size: 13pt;
+       font-family: 'Ubuntu', sans-serif;
+       padding-bottom: 30px;
+ }
+ .photodiary h1{
+       margin: 0;
+       padding: 30px 0;
+       color: #626262;
+       font-size: 35px;
+       font-family: 'Playfair Display', serif;
+ }
+ .photodiary p{
+       margin: 0;
+       color: #626262;
+       font-size: 16px;
+       padding-bottom: 40px;
+       font-family: 'Playfair Display', serif;
+ }
+ .lifestyle{
+ width: 80%;
+ margin: auto;
+ padding-top: 50px;
+ overflow: hidden;
+ }
+ .lifestyle img{
+      width: 100%;
+ }
+ .lifestyle h5{
+      margin: 0;
+      color: #b4ad9e;
+      text-transform: uppercase;
+      font-size: 13pt;
+      padding-top: 30px;
+      font-family: 'Ubuntu', sans-serif;
+ }    
+ .lifestyle h1{
+      margin: 0;
+      padding: 30px 0;
+      color: #626262;
+      font-size: 35px;
+      font-family: 'Playfair Display', serif;
+ }
+ .lifestyle p{
+      margin: 0;
+      color: #626262;
+      font-size: 16px;
+      padding-bottom: 50px;
+      font-family: 'Playfair Display', serif;
+ }
+ .lifestyle_one{
+      width: 48%;
+      float: left;
+ 
+ }
+ .lifestyle_two{
+      width: 48%;
+      float: right;
+ }
+ .newslatter{
+       background: #f0f0f0;
+       padding: 10px 0;
+       margin: 50px 0;
+ }
+ .newslatter_content{
+       margin: auto;
+       width: 28%;
+       padding: 46px 0;
+       position: relative;
+ }
+ .newslatter_content h1{
+       margin: 0;
+       /* padding: 29px 0; */
+       color: #626262;
+       font-size: 26px;
+       text-transform: capitalize;
+       font-family: 'Playfair Display', serif;
+       margin-bottom: 20px;
+ }
+ .newslatter_content input{
+       background: transparent;
+       border: none;
+       border-bottom: 1px solid black;
+       width: 100%;
+       margin-top: 30px;
+ }
+ .newslatter_content input::placeholder{
+       color: #626262;
+       font-family: 'Playfair Display', serif;
+ }
+ .loadmore{
+       padding: 30px 0;
+       text-align: center;
+ }
+ .loadmore button{
+       border: navajowhite;
+       background: transparent;
+       border: 1px solid #626262;
+       padding: 15px 30px;
+       color: #626262;
+       font-family: 'Playfair Display', serif;
+       font-size: 20px;
+ }
+ footer{    
+       background: #f0f0f0;  
+       padding: 45px 0;
+       margin: 80px 0 0 0;
+ }
+ .footer_content{ 
+       width: 80%;
+       margin: auto;
+       overflow: hidden;
+ }
+ .terms{  
+       width: 30%;  
+       float: left;
+ }
+ .terms ul{
+       list-style: none;
+}
+ .terms ul li{
+     
+ }
+ .terms ul li a{
+      
+       text-decoration: none;
+       float: left;
+       margin-right: 30px;
+       color: #000000;
+       text-transform: capitalize;
+       font-family: 'Playfair Display', serif;
+ }
+ .socail_link{
+       width: 30%;
+      float: right;
+ }
+ .socail_link ul{
+       list-style: none;
+ }
+ .socail_link ul li{
+      
+ }
+ .socail_link ul li a{
+       text-decoration: none;
+       float: right;
+       margin-left: 30px;
+       color:#000000; 
+       text-transform: capitalize;
+       font-family: 'Playfair Display', serif;
+ }
+ .green{
+       height: 348px;
+       width: 656px;
+       background: green;
+       position: relative;
+
+}
+ 
+ .send{
+ position: absolute;
+ right: 0;
+ bottom: 47px;
+ }
+ 
+ 
